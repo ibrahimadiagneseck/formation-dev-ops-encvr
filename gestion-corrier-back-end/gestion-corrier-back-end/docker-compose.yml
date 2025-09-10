@@ -31,7 +31,7 @@ services:
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQL8Dialect
     depends_on:
-      mysql-db:
+      db-service:
         condition: service_healthy
 
   phpmyadmin-service:
@@ -39,7 +39,7 @@ services:
     container_name: phpmyadmin
     restart: always
     depends_on:
-      - mysql-db
+      - db-service
     ports:
       - "8081:80"
     environment:
