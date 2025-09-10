@@ -1,17 +1,17 @@
-package sn.encvr.gestion_corrier_back_end.services;
+package sn.encvr.gestion_corrier_back_end.services.impl;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import sn.encvr.gestion_corrier_back_end.entities.Expediteur;
 import sn.encvr.gestion_corrier_back_end.repositories.ExpediteurRepository;
+import sn.encvr.gestion_corrier_back_end.services.ExpediteurService;
 
 import java.util.Collection;
-import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ExpediteurImp implements ExpediteurService{
+public class ExpediteurImp implements ExpediteurService {
 
     @Autowired
     private ExpediteurRepository expediteurRepository ;

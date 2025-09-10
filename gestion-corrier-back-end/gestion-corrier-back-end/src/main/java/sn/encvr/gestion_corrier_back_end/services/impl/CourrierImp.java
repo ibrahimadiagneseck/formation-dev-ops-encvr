@@ -1,10 +1,11 @@
-package sn.encvr.gestion_corrier_back_end.services;
+package sn.encvr.gestion_corrier_back_end.services.impl;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import sn.encvr.gestion_corrier_back_end.entities.Courrier;
 import sn.encvr.gestion_corrier_back_end.repositories.CourrierRepository;
+import sn.encvr.gestion_corrier_back_end.services.CourrierService;
 
 import java.util.Collection;
 import java.util.Optional;
