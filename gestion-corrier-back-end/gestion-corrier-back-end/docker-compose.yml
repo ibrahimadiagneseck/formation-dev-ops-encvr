@@ -23,7 +23,7 @@ services:
     container_name: backend-service
     restart: always
     ports:
-      - "8585:8080"
+      - "8585:8484"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/devopsdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: devops
