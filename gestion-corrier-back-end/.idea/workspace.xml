@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b2d749b-155e-4ff0-8441-74a531e7ee16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/gestion-corrier-back-end/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-corrier-back-end/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="1b2d749b-155e-4ff0-8441-74a531e7ee16" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +40,19 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Cours_du_jour/Downloads/gestion-corrier-back-end/gestion-corrier-back-end&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="gestion-corrier-back-end" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="gestion-corrier-back-end" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1b2d749b-155e-4ff0-8441-74a531e7ee16" name="Changes" comment="" />
