@@ -1,0 +1,7 @@
+Pour que notre processus de CI/CD qui sera géré par Jenkins, puisse être déclenché par ce webhook,
+ installez les plugins GitHub suivants : GitHub Integration Plugin : Connecte Jenkins aux référentiels GitHub.
+ Maven Integration Plugin : Permet à Jenkins de créer des projets Java basés sur Maven. Pipeline Maven Integration
+  : sert à intégrer automatiquement Maven dans un pipeline Jenkins Pipeline Plugin : Permet de définir des workflows CI/CD à l'aide de Jenkinsfiles.
+  Generic Webhook Trigger Plugin :
+Déclenche les pipelines Jenkins via des charges utiles Webhook personnalisées.
+ Pipeline: Stage View : affichag les étapes du pipeline CI/CD
