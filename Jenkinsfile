@@ -1,7 +1,9 @@
 pipeline {
     // Définir l’agent Jenkins sur lequel s'exécute le pipeline
 
-    agent any
+    agent {
+       label 'windowsAgent'
+    }
    
 
     tools {
