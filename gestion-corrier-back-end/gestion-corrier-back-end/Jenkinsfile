@@ -1,6 +1,10 @@
 pipeline {
     // Définir l’agent Jenkins sur lequel s'exécute le pipeline
-    agent any
+    //agent any
+    agent {
+        label 'windows' // creer notre propre agent dans c:/ajent/ par ex depuis jenkins
+    }
+
 
     tools {
         // Charger la version de Maven configurée dans Jenkins
